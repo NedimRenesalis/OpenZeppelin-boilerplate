@@ -12,3 +12,8 @@ describe('Box', function () {
     this.box = await this.Box.deploy();
     await this.box.deployed();
   });
+
+// Test case
+  it('retrieve returns a value previously stored', async function () {
+    // Store a value
+    await this.box.store(42);
