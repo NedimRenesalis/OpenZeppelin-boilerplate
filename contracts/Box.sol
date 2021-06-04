@@ -2,6 +2,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
+// Import Auth from the access-control subdirectory
+import "./access-control/Auth.sol";
+
 contract Box {
     uint256 private value;
 
