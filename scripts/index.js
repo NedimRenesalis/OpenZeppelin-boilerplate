@@ -1,6 +1,8 @@
 // scripts/index.js
 async function main() {
-  // Here I will put the code for interacting.
+const accounts = await ethers.provider.listAccounts();
+console.log(accounts);
+  // Query the list of enabled accounts.
 }
 
 main()
